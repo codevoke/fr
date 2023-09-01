@@ -1,0 +1,59 @@
+body {
+	background: rgba(112.520718, 44.062154, 249.437846, .05);
+}
+
+.form_block {
+	margin: 1em 1em;
+	padding: 0.4em 3em 1.5em 3em;
+	border: 1px solid #dee2e6;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	background: white;
+}
+
+@media (min-width: 768px) {
+	.form_block {
+		margin: 1em 15em;
+	}
+}
+
+.avatar {
+	border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (min-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (min-width: 1024px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+.grid-container {
+	gap: 2em;
+	row-gap: 2em;
+}
+
+.cards_grid_block {
+	margin: 3em 2em;
+}
+
+@media (min-width: 768px) {
+	.cards_grid_block {
+		margin: 2em 5em;
+	}
+}
